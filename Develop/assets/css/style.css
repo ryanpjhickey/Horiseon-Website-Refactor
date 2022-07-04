@@ -32,9 +32,7 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
+/* removed .header div ul because it was doing nothing **/
 
 .header div ul li {
     display: inline-block;
@@ -56,7 +54,7 @@ p {
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center
 }
 
 .float-left {
@@ -75,7 +73,7 @@ p {
     margin-left: 20px;
 }
 
-/*consolidated benfit-lead, benefit-brand, benefit-cost all into benefits/benifits h3/benfits img*/
+/*consolidated benfit-lead, benefit-brand, benefit-cost all into benefits, benifits h3benfits img*/
 
 .benefits {
     margin-right: 20px;
@@ -109,6 +107,9 @@ p {
 /**/
 
 /* consolidated the following: .search-engine-optimization, .online-reputation-management, .social-media-marketing, .search-engine optimization img, .online-reputation-management img, .social-media marketing img, .search-engine optimization, .online-reputation management h2, .social- media-marketing h2 */
+/**/
+
+/* begin seoweb */
 
 .seoweb {
     margin-bottom: 20px;
