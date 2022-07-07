@@ -12,8 +12,10 @@ body {
 /* added flex-wrap to .header to allow for more accessible resizing*/ 
 /*tried wrap-reverse, flex direction: row-reverse to see it did not function to my liking */ 
 /*removed flex-wrap to better fit the mockup */
-/*idea included .header and .top as follows:
 
+/*idea included .header and .top as follows:*/
+
+/*
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,6 +29,7 @@ body {
     position: absolute;
     right: 100px;
 }
+*/
 
 /* end idea */
 
@@ -97,7 +100,9 @@ p {
     margin-left: 20px;
 }
 
-/*consolidated benfit-lead, benefit-brand, benefit-cost all into benefits, benefits h3, benefits img*/ /*added flex-wrap to make more accessible*/
+/*consolidated benfit-lead, benefit-brand, benefit-cost all into benefits, benefits h3, benefits img*/ 
+/*added flex-wrap to make more accessible*/
+/*removed flex-wrap*/
 
 .benefits {
     margin-right: 20px;
@@ -114,6 +119,7 @@ p {
 
 
 /*added flex-wrap to make more accessible*/
+/*removed flex-wrap*/
 
 .benefits h3 {
     margin-bottom: 10px;
@@ -128,19 +134,20 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/**/
 
-/*added benefits p to fix spacing below descriptions */ /*added flex-wrap to make more accessible*/
+/*added benefits p to fix spacing below descriptions */ 
+/*added flex-wrap to make more accessible*/
+/*removed flex-wrap*/
+
 .benefits p {
     margin-bottom: 32px;
 }
-/**/
 
 /* consolidated the following: .search-engine-optimization, .online-reputation-management, .social-media-marketing, .search-engine optimization img, .online-reputation-management img, .social-media marketing img, .search-engine optimization, .online-reputation management h2, .social- media-marketing h2 */
-/**/
 
 /* begin seoweb */
 /*experimented more with flex-wrap to get it in the most accessible state possible, with what I know */
+/*removed flex-wrap*/
 
 .seoweb {
     margin-bottom: 20px;
