@@ -16,7 +16,12 @@ body {
     background-color: #2a607c;
     color: #ffffff;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header h1 {
